@@ -32,12 +32,14 @@ function verifierValeur(valeur) {
 
     if (valeur <= 0) {
         let p = document.createElement("p")
+        p.setAttribute("role", "alert")
         let message_froid = document.createTextNode("Brrrrrrr, un peu froid ce matin, mets ta cagoule !")
         p.appendChild(message_froid)
 
         section.insertBefore(p, zone)
     } else {
         let p = document.createElement("p")
+        p.setAttribute("role", "alert")
         let message_froid = document.createTextNode("Caliente ! Vamos a la playa, ho hoho hoho !!")
         p.appendChild(message_froid)
 
