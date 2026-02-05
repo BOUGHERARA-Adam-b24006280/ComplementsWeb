@@ -1,15 +1,38 @@
 .blue-border {
-    border: solid 2px blue;
+    border: 2px solid blue;
 }
 
 .green-border {
-    border: solid 2px green;
+    border: 2px solid green;
 }
 
 .orange-border {
-    border: solid 2px orange;
+    border: 2px solid orange;
 }
 
 .red-border {
-    border: solid 2px red;
+    border: 2px solid red;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 6px;
 }

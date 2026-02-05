@@ -9,9 +9,30 @@
 
 <body>
     <h1>Les différentes températures</h1>
-    <section>
-        <p aria-live="off" id="valeur"> </p>
+
+    <div role="tablist">
+        <button role="tab" id="tab-capteur" aria-selected="true" aria-controls="panel-capteur"
+            class="active">Données</button>
+        <button role="tab" id="tab-historique" aria-selected="false"
+            aria-controls="panel-historique">Historique</button>
+    </div>
+
+    <section id="panel-capteur" role="tabpanel" aria-labelledby="tab-capteur">
+        <p aria-live="polite" id="valeur"></p>
     </section>
+
+    <section id="panel-historique" role="tabpanel" aria-labelledby="tab-historique" style="display:none;">
+        <table id="historique-table">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Température</th>
+                </tr>
+            </thead>
+            <tbody id="historique-body"></tbody>
+        </table>
+    </section>
+
     <script src="script.js"></script>
 </body>
 

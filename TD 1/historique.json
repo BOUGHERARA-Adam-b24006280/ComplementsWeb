@@ -1,0 +1,29 @@
+{
+    "historique": [
+        {
+            "index": 0,
+            "temperature": 25,
+            "timestamp": 1700000000
+        },
+        {
+            "index": 1,
+            "temperature": 18,
+            "timestamp": 1700000060
+        },
+        {
+            "index": 2,
+            "temperature": -2,
+            "timestamp": 1700000120
+        },
+        {
+            "index": 3,
+            "temperature": 22,
+            "timestamp": 1700000180
+        },
+        {
+            "index": 4,
+            "temperature": 15,
+            "timestamp": 1700000240
+        }
+    ]
+}
